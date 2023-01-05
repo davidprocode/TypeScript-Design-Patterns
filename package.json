@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node src/index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/davidprocode/TypeScript-Design-Patterns/issues"
   },
-  "homepage": "https://github.com/davidprocode/TypeScript-Design-Patterns#readme"
+  "homepage": "https://github.com/davidprocode/TypeScript-Design-Patterns#readme",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
 }
